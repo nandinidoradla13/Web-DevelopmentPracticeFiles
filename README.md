@@ -39,8 +39,6 @@ This repository contains my practice files for web development, including projec
 2. Open the files in your browser or code editor
 3.Explore and modify the code for learning
 
-
-
 🤝 Contributions
 This is a personal practice repository, but suggestions and improvements are always welcome!
 
