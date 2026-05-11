@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h2>styled registration forms</h2>
+    <form action="/submit" method="post">
+    <fieldset>
+        <legend>personaldetails</legend><br>
+        <label>name</label>
+        <input type="text" name="name"><br><br>
+        <label>email</label>
+        <input type="text" name="email"><br><br>
+        <label>password</label>
+        <input type="text" name="password"><br><br>
+        <label>phone no</label>
+        <input type="tel" name="phone no"><br><br>
+        <label>gender:</label><br>
+        <input class="inline" type="radio" name="gender">male<br>
+        <input class="inline"type="radio" name="gender" >female<br><br>
+        <label>hobbies:</label><br>
+        <input class="inline" type="checkbox" name="hobbies">writting<br>
+         <input class="inline" type="checkbox" name="hobbies" >reading<br>
+          <input class="inline" type="checkbox" name="hobbies">dansing<br>
+           <input class="inline" type="checkbox" name="hobbies">singing<br>
+    </fieldset>
+    <fieldset>
+        <legend>preference</legend><br>
+        <label>states:</label>
+        <select>
+        <optgroup label="andra pradesh"><br>
+            <option>ongole</option>
+            <option>nellore</option>
+        </optgroup>
+        <optgroup label="hydrabad">
+            <option>lb nagar</option>
+            <option>miyapur</option>
+        </optgroup><br><br>
+        </select><br><br>
+        <label>favorite color:</label>
+        <input type="color"><br><br>
+        <label>experience:</label>
+        <input type="range">
+    </fieldset>
+     <fieldset>
+        <legend>date of birth</legend>
+            <label>date:</label>
+            <input type="date"><br>
+            <label>time:</label>
+            <input type="time"><br>
+            <label>month:</label>
+            <input type="month"><br>
+            <label>year</label>
+            <input type="year">
+    </fieldset>
+    <fieldset>
+        <legend>upload</legend><br>
+        <label>upload file:</label>
+        <input type="file"><br><br>
+        <label>upload image:</label>
+        <input type="file" accept="image/*"><br><br>
+    </fieldset>
+    <label>messages</label><br>
+    <textarea rows="7"></textarea><br><br>
+    <button type="submit">Submit</button>
+           <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

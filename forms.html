@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms </title>
+</head>
+<body>
+    <h1>forms creation</h1>
+     <form action="/submit" method="post">
+    <fieldset>
+    <legend>personal details</legend><br>
+    <label>name</label>
+    <input type="text" name="name" autofocus placeholder=" enter your name"><br><br>
+    <label>email</label>
+    <input type="mail" name="email" required placeholder=" enter your mail"><br><br>
+    <label>password</label>
+    <input type="password" name="password" placeholder="enter your password"><br><br>
+    <label>phone</label>
+    <input type="tel" name="phone"placeholder=" enter your number"><br><br>
+    <label>gender</label><br>
+    <input type="radio" name="gender" value="male">
+    <label for="male">male</label><br>
+    <input type="radio" name="gender" value="female">
+    <label for="female">female</label><br><br>
+    <label>hobbies</label><br>
+    <input type="checkbox" name="hobbies" value="singing">
+    <label for="singing">singing</label><br>
+    <input type="checkbox" name="hobbies" value="writting">
+    <label for="singing">writting</label><br>
+    <input type="checkbox" name="hobbies" value="reading">
+    <label for="singing">reading</label><br><br>
+     <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+  </form>
+</fieldset>  
+    
+</body>
+</html>

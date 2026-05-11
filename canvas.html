@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas example</title>
+</head>
+<style>
+    body{
+        direction: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 200vh;
+        margin:0;
+    }
+    canvas{
+        border:2px solid rgb(230, 30, 12);
+        background-color: white;
+    }
+</style>
+<body>
+    <canvas id="myCanvas" width="500" height="300"></canvas>
+    <script>
+        const Canvas=document.getElementById("myCanvas");
+        const ctx=Canvas.getContext("2d");
+        //draw a rectangle
+        ctx.fillStyle ="pink";
+        ctx.fillRect(50,50,150,100);
+
+        //draw a circle
+        ctx.beginPath();
+        ctx.arc(300,100,50,0,Math.PI*2);
+        ctx.fillStyle ="blue";
+        ctx.fill();
+
+        //Draw line
+        ctx.beginPath();
+        ctx.moveTo(100,300);
+        ctx.lineTo(300,200);
+        ctx. strokeStyle="yellow";
+        ctx.lineWidth=4;
+        ctx.stroke();
+
+
+        //text
+        ctx.font="24px Arial";
+        ctx.fillStyle="violet";
+        ctx.fillText("Hello Nandini",100,200);
+    </script>
+</body>
+</html>
